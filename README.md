@@ -58,4 +58,13 @@ Steps
 
 #### Anything with a . at beginning is hidden
 
-#### testing 
+## Stages of Git
+
+
+1. Normal repo to git repo
+   - git init
+2. Untracked 
+   - git add .
+3. Tracked/Staged
+   - git commit -m "label"
+4. Committed
