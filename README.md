@@ -28,43 +28,4 @@ Steps
 2. Step 2
     * point about this step
 
-# Git
 
-### VCS
-
-- Version Control
-  - saving snapshots (committing) changes/versions of a file/folder
-  - only staged/tracked/indexed
-- create repos
-- branches
-- .git file = has everything - tracked
-- .gitignore = if don't want tracked
-
-### Centralised VCS
-
-- repo on server
-- anyone wanting to use need to download copy
-  - usually is locked
-- close it(updates) + unlocks
-
-### Distributed VCS
-
-- repo on server
-  - usually online like github
-- download copy repo to local machine
-  - pulling = from server to local
-  - pushing = local to server
-- freely make changes on file (local)
-
-#### Anything with a . at beginning is hidden
-
-## Stages of Git
-
-
-1. Normal repo to git repo
-   - git init
-2. Untracked 
-   - git add .
-3. Tracked/Staged
-   - git commit -m "label"
-4. Committed
