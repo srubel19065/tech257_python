@@ -5,7 +5,7 @@ height_float = input("What is your height? ")
 
 print(f"Hi {name_str}. You are {age_int} years old and was born on {dob_int}")
 
-user_details = [name_str, ((int)(age_int)), dob_int, ((float)(height_float))]
+user_details = [name_str, ((int)(age_int)), int(dob_int), ((float)(height_float))]
 print(user_details)
 
 print(type(user_details[-1]))

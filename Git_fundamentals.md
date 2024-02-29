@@ -44,3 +44,22 @@ Anything with a . at beginning is hidden
    - commits all staged changes
    - -m " " = labelling with relevant message
    
+
+## Git commands - History
+
+- **git log** 
+  - provides history of commits
+  - latest from top to bottom
+- **git diff <old-commit-id> <new-commit-id>**
+  - This allows comparisons of commits
+  - uses commmit IDs and provides changes that were made
+- **git checkout <commit-id>**
+  - view a previous commit's version of files/folders
+  - swithces to the ID given
+  - may seem like all other work has disappeared
+  - 'detached Head from Master'
+  - SAFE OPTION
+- **git reset --hard <commit-id>**
+  - hard reset to the ID provided
+  - every work after that point is removed
+  - DANGEROUS OPTION

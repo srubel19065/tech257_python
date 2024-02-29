@@ -15,6 +15,10 @@ print(len(shopping_list))
 shopping_list = shopping_list + ["toffee", "coffee"]
 print(shopping_list)
 
+new_list = ["tea", "biscuits"]
+shopping_list.extend(new_list)
+print(shopping_list)
+
 shopping_list.pop(2)
 print(shopping_list)
 
