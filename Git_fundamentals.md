@@ -63,3 +63,29 @@ Anything with a . at beginning is hidden
   - hard reset to the ID provided
   - every work after that point is removed
   - DANGEROUS OPTION
+
+
+## GitHub VS Git
+
+![](C:\Users\rubel\Downloads\github_git.jpeg)
+ - Git can be used without Github but Github cannot be used without Git
+ - Git can be local
+ - Github is an online service that can be used to store Git repos (publicly & privately)
+ - 
+
+## Methods to Github
+
+![](C:\Users\rubel\Downloads\methods_of_github.jpeg)
+Method 1:
+1. create empty repo
+2. config where to put
+3. push
+
+Main commands to use
+1. git remote add origin
+   - adds the destination repo
+2. git branch -M main 
+   - switches to main (master if yours is called master)
+   - only needed if not in master branch
+3. git push -u origin main
+   - push to repo
