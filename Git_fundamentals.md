@@ -73,7 +73,7 @@ Anything with a . at beginning is hidden
  - Github is an online service that can be used to store Git repos (publicly & privately)
  - 
 
-## Methods to Github
+## Methods to Pushing to Github
 
 ![](C:\Users\rubel\Downloads\methods_of_github.jpeg)
 Method 1:
@@ -81,11 +81,37 @@ Method 1:
 2. config where to put
 3. push
 
-Main commands to use
+Method 2:
+1. create repo
+2. git clone (clone remote repo to local so you have latest repo)
+3. push
+
+**Basic sync from REMOTE to Local Repo**
 1. git remote add origin
    - adds the destination repo
 2. git branch -M main 
    - switches to main (master if yours is called master)
    - only needed if not in master branch
-3. git push -u origin main
+3. git push (-u origin main)
    - push to repo
+
+**Removing Folder/File from remote repo**
+- removing means to remove from cached
+- to remove a folder means it needs to recursively remove 
+  - recursive = repeat and delete all things inside folder not just folder in one go
+1. **command to remove**
+- git rm --cached -r <folder>
+  - The -r = recursively so only use this when wanting to remove whole folder
+    - if removing file itself then -r not needed
+
+### Using a .gitignore folder
+
+- Everything with . in front means hidden
+- .gitignore folder is used to put all things we dont want committed
+
+#### **.gitignore**
+- < .folder/file/ > 
+  - format of how to place each folder/file inside
+- This will specify that it wants to be not included
+  - If a folder inserted, once pushed, it will still show up on Repo
+    - Will need to remove from cache entirely for it to not show up
