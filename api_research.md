@@ -61,19 +61,12 @@ Hypertext Transfer Protocol
 - It's an application-layer protocol used for transmitting hypermedia docs such as HTML files over WWW
 - Basically the communication between internet and clients
 
-![](C:\Users\rubel\Downloads\HTTP REQUEST.png)
-
+![img_1.png](img_1.png)
 ### HTTP - Request Structure
-
-| VERB | URL | VERSION | 
-|------|-----|---------|
-|      |     |         |
-|      |     |         |
-|      |     |         |
-
 1. **REQUEST LINE**
 - Verb = method eg GET
 - URL = resource identified by client
+  - where we want to get it from (endpoint)
 - Version = HTTP protocol version eg HTTP/1.1
 ##### EXAMPLE
 GET /index.html HTTP/1.1
@@ -93,10 +86,11 @@ GET /index.html HTTP/1.1
 
 3. **MESSAGE BODY**
 - Required when data is transferred
+- When data is sent, 
 
 ### HTTP - Response Structure
-
-1. STATUS lINE
+![img_2.png](img_2.png)
+1. STATUS LINE
 - HTTP version 
 - Status Code
 
@@ -109,3 +103,19 @@ GET /index.html HTTP/1.1
 
 3. MESSAGE BODY 
 - contains actual content of response such as HTML, JSON
+
+
+
+### 5 HTTP VERBS:
+- GET: Retrieves data from server
+- POST: Sends data to server to create resources
+- PUT: Updates an existing resource
+- PATCH: Partially updates existing resources
+- DELETE: Deletes resource on server
+
+
+
+### STATELESSNESS
+Stateless is when the process needs all the information to be send and can be processed very quickly
+
+![img.png](img.png)
