@@ -97,3 +97,15 @@ GET /index.html HTTP/1.1
 ### HTTP - Response Structure
 
 1. STATUS lINE
+- HTTP version 
+- Status Code
+
+2. HEADERS LINE
+- provides info like content type, content length etc
+##### EXAMPLE 
+- Content-Type: text/html; charset=utf-8
+- Content-Length: 1234
+- Cache-Control: max-age=3600
+
+3. MESSAGE BODY 
+- contains actual content of response such as HTML, JSON
