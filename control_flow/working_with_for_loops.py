@@ -31,8 +31,8 @@ for x in dict_data:
 
 # Loop to print the values of the dictionary items inside a dictionary Copy and paste the last for loop as a starting point for this loop. Generate an embedded for loop (a loop within a loop) to extract and print the values within the dictionary of each item in the dictionary.
 for x in dict_data.values():
-    for y in x:
-        print(x[y])
+    for y in x.values():
+        print(y)
 
 
 # Loop to print specific values of the dictionary items inside a dictionary Write another for loop to loop through the dictionary 'dict_data' but this time only print out the money values.
